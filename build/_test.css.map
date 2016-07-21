@@ -1,0 +1,1 @@
+{"version":3,"sources":["_test.css"],"names":[],"mappings":"AAEA,EAAE,cAAc,CAAC;;AAEjB,OAAO,yBAAyB,CAAC;;AACjC,OAAO,qBAAqB,CAAC;;AAC7B,OAAO,iCAAiC,CAAC","file":"_test.css","sourcesContent":["$red: red;\n\np{font-size:100%}\n\n.test2{text-transform: uppercase}\n.test3{display: inline-block}\n.test4{background-image: url('test.png')}\n"],"sourceRoot":"/source/"}

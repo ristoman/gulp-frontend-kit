@@ -1,0 +1,33 @@
+/* Some tests */
+@import "_test.css";
+
+.test{
+  display:flex;
+  background-color:green;
+  a{text-decoration: underline;
+    h1{font-weight:700}
+    h2{font-size:1em}
+  }
+}
+
+h1{font-size: 1em}
+
+.arf{
+  background-position: top center;
+  color:white;
+  background-color:green;
+  margin: 0 auto;
+}
+
+.postcss{
+  background: color($red alpha(-10%));
+}
+
+.precss {
+  @if 3 < 5 {
+    background: green;
+  }
+  @else {
+    background: blue;
+  }
+}
