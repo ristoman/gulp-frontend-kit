@@ -16,4 +16,4 @@ Once you're all set, you should run `gulp watch` since it will:
 * start BrowserSync and open the `index.html` file in the root directory;
 * watch for changes in .css and .html files to trigger a BrowserSync refresh.
 
-You'll be able to see your HTML and CSS edits in real time, even on multiple, synchronized devices.
+You'll be able to see your HTML and CSS edits in real time from the browser, even on multiple, synchronized devices.
