@@ -1,5 +1,6 @@
 # gulp-frontend-kit
 A development environment for front-end projects using [Gulp](gulpjs.com), [postcss](http://postcss.org/) and [BrowserSync](https://www.browsersync.io/).
+
 Additional functionalities include [precss](https://jonathantneal.github.io/precss/), [autoprefixer](https://autoprefixer.github.io/), [cssnano](http://cssnano.co/) and source maps.
 
 ## postcss configuration
