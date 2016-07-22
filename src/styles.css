@@ -1,16 +1,15 @@
 /* Some tests */
 @import "_test.css";
 
+p{width:75%; background-color: azure}
+/* Nesting example */
 .test{
   display:flex;
   background-color:green;
   a{text-decoration: underline;
     h1{font-weight:700}
-    h2{font-size:1em}
   }
 }
-
-h1{font-size: 1em}
 
 .arf{
   background-position: top center;
@@ -19,10 +18,12 @@ h1{font-size: 1em}
   margin: 0 auto;
 }
 
+/* $red is imported from _test.css, the function comes from postcss */
 .postcss{
-  background: color($red alpha(-10%));
+  background: color($red alpha(-40%));
 }
 
+/* conditional styling from precss */
 .precss {
   @if 3 < 5 {
     background: green;
