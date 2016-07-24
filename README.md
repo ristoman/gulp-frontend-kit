@@ -1,11 +1,10 @@
 # gulp-frontend-kit
 A development environment for front-end projects using [Gulp](gulpjs.com), [postcss](http://postcss.org/) and [BrowserSync](https://www.browsersync.io/).
 
-Additional functionalities include [precss](https://jonathantneal.github.io/precss/), [autoprefixer](https://autoprefixer.github.io/), [cssnano](http://cssnano.co/) and source maps.
+Additional functionalities include [precss](https://jonathantneal.github.io/precss/), [cssnano](http://cssnano.co/) and source maps for debugging.
 
 ## postcss configuration
-Postcss is configured to take advantage of imports and nesting out of the box, as I consider them the basic advantages of preprocessors over traditional CSS authoring.
-Feel free to configure it with additional plugins.
+Postcss is configured to take advantage of imports, nesting and some other functionalities you might expect from a preprocessor like Less or Sass. This is done through [precss](https://jonathantneal.github.io/precss/), which covers most of the advantages of preprocessors over vanilla CSS authoring. Feel free to configure your own workflow with additional plugins. Just make sure you brush up on the precss syntax, since not everything works the exact same way as the aforementioned preprocessors.
 
 ## Getting Started
 `npm install` will make sure you have all dependencies installed.
