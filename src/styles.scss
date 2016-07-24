@@ -1,8 +1,7 @@
 /* Some tests */
 @import "_test.css";
 
-p{width:75%; background-color: mistyrose}
-/* Nesting example */
+// Nesting example
 .test{
   display:flex;
   background-color:green;
@@ -18,12 +17,12 @@ p{width:75%; background-color: mistyrose}
   margin: 0 auto;
 }
 
-/* $red is imported from _test.css, the function comes from postcss */
+// $red is imported from _test.css, the function comes from postcss
 .postcss{
   background: color($red alpha(-40%));
 }
 
-/* conditional styling from precss */
+// conditional styling from precss
 .precss {
   @if 3 < 5 {
     background: green;
