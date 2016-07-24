@@ -1,10 +1,9 @@
 {
   "name": "gulp-frontend-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An environment for writing front-end code using Gulp, postcss and BrowserSync",
   "main": "gulpfile.js",
   "dependencies": {
-    "autoprefixer": "^6.3.7",
     "browser-sync": "^2.13.0",
     "cssnano": "^3.7.3",
     "gulp": "^3.9.1",
@@ -12,11 +11,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "postcss": "^5.1.0",
     "postcss-cssnext": "^2.7.0",
-    "postcss-import": "^8.1.2",
-    "postcss-nested": "^1.0.0",
-    "postcss-scss": "^0.1.9",
     "precss": "^1.4.0",
-    "gulp-watch": "^4.3.8"
   },
   "devDependencies": {
     "gulp-postcss": "^6.1.1"
