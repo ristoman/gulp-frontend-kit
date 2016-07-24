@@ -4,7 +4,7 @@ A development environment for front-end projects using [Gulp](gulpjs.com), [post
 Additional functionalities include [precss](https://jonathantneal.github.io/precss/), [cssnano](http://cssnano.co/) and source maps.
 
 ## postcss configuration
-Postcss is configured to take advantage of imports and nesting out of the box through [precss](https://jonathantneal.github.io/precss/), as I consider them the basic advantages of preprocessors over traditional CSS authoring. Feel free to configure it with additional plugins.
+Postcss is configured to take advantage of imports, nesting and some other functionalities you might expect from a preprocessor like Sass. This is done through [precss](https://jonathantneal.github.io/precss/), which covers most of the basic advantages of preprocessors over traditional CSS authoring. Feel free to configure your own workflow with additional plugins. Just make sure you brush up on the syntax, since not everything works the exact same way.
 
 ## Getting Started
 `npm install` will make sure you have all dependencies installed.
