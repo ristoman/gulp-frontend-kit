@@ -1,2 +1,7 @@
-p{font-size:100%}.test2{text-transform:uppercase}.test3{display:inline-block}.test4{background-image:url(test.png)}
+p{font-size:120%}
+
+.test2{text-transform: uppercase}
+.test3{display: inline-block}
+.test4{background-image: url('test.png')}
+
 /*# sourceMappingURL=_test.css.map */

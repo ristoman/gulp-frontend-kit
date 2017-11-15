@@ -1,7 +1,9 @@
 /* Some tests */
 @import "_test.css";
+@import "_colors.css";
 
-p{width:75%; background-color: mistyrose}
+p{width:75%; background-color:$red}
+
 /* Nesting example */
 .test{
   display:flex;

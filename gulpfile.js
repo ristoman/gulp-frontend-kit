@@ -12,7 +12,7 @@ var processors = [
 ];
 
 gulp.task('css', function () {
-  return gulp.src('src/*.css')
+  return gulp.src('src/*.scss')
     .pipe(sourcemaps.init())
     .pipe(postcss(processors))
     .pipe(sourcemaps.write('.'))
@@ -31,5 +31,6 @@ gulp.task('browser-sync', ['css'], function() {
 
 gulp.task('watch', ['browser-sync'], function () {
     gulp.watch("src/*.css", ['css']).on('change', bs.reload);
-    gulp.watch("*.html").on('change', bs.reload);
+    gulp.watch("src/*.scss", ['css']).on('change', bs.reload);
+gulp.watch("*.html").on('change', bs.reload);
 });

@@ -1,7 +1,36 @@
-/* Some tests */p{font-size:100%}.test2{text-transform:uppercase}.test3{display:inline-block}.test4{background-image:url(test.png)}p{width:75%;background-color:#ffe4e1}
-/* Nesting example */.test{display:-webkit-box;display:-ms-flexbox;display:flex;background-color:green}.test a{text-decoration:underline}.test a h1{font-weight:700}.arf{background-position:top;color:#fff;background-color:green;margin:0 auto}
+/* Some tests */
+p{font-size:120%}
+.test2{text-transform:uppercase}
+.test3{display:inline-block}
+.test4{background-image:url('test.png')}
 
-/* $red is imported from _test.css, the function comes from postcss */.postcss{background:rgba(255,0,0,.6)}
+p{width:75%; background-color:#AAAA00}
 
-/* conditional styling from precss */.precss{background:green}
+/* Nesting example */
+.test{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  background-color:green;
+}
+.test a{text-decoration: underline;}
+.test a h1{font-weight:700}
+
+.arf{
+  background-position: top center;
+  color:white;
+  background-color:green;
+  margin: 0 auto;
+}
+
+/* $red is imported from _test.css, the function comes from postcss */
+.postcss{
+  background: rgba(170, 170, 0, .6);
+}
+
+/* conditional styling from precss */
+.precss {
+  background:green
+}
+
 /*# sourceMappingURL=styles.css.map */
